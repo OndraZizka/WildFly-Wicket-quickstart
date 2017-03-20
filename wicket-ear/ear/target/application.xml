@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd" version="6">
+  <description>A sample JAVA EE 6 project demonstrating how to use Wicket Framework with JBoss AS 7.
+        EAR with EJB JAR and WAR version.</description>
+  <display-name>jboss-as-wicket-ear-ear</display-name>
+  <module>
+    <ejb>jboss-as-wicket-ear-ejb-7.1.2-SNAPSHOT.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>jboss-as-wicket-ear-war-7.1.2-SNAPSHOT.war</web-uri>
+      <context-root>/jboss-as-wicket-ear-war</context-root>
+    </web>
+  </module>
+  <library-directory>lib</library-directory>
+</application>
